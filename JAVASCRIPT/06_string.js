@@ -29,3 +29,4 @@ str1 = '我说："今天天气挺好啊~~~"';
 str2 = "我说：\"今天天气真不错\"";
 console.log(str1,str2)
 // alert(str)
+// var str3 = "hello"
