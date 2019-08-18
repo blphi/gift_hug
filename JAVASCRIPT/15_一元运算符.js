@@ -10,7 +10,7 @@ var  a = true
 a = NaN
 a = undefined
 a = null
-a = {}
+// a = {}
 
 
 // a = -a
