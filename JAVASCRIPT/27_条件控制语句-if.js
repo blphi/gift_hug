@@ -49,4 +49,16 @@ if (age > 100) {
 }else{
   console.log("你还是个孩子");
 }
-if(age > 17)
+if (age > 17 && age <= 30) {
+  console.log("你已经成年了");      
+} else if (age >30 && age <= 60) {
+  console.log("你已经中年了");
+}else if (age > 60 && age <= 80) {
+  console.log("你已经退休了");
+}else if (age > 80 && age <= 100 ) {
+  console.log("你也老大不小了");
+}else if (age > 100) {
+  console.log("活着听没有意思");
+}else{
+  console.log("你还是个孩子");
+}
