@@ -17,6 +17,8 @@ if (num<=1) {
       flag = false
       //num能被i整除，则num不是质数
       console.log("num 不是质数");
+      // 一旦进入判断则循环没有任何意义了
+      // 使用break来结束循环
       break
     }
   }
