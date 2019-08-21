@@ -11,12 +11,17 @@
 // 该字符串会作为提示框中的文字
 // 用户输入的内容将会作为函数的返回值返回，可以定义一个变量来接受该内容
 // prompt 函数的返回值是一个string类型
-/* var score = prompt("请输入小明的成绩[0-100]：")
-console.log(score); */
+// alert(1)
+var score = prompt("请输入小明的成绩[0-100]：")
+console.log(score)
+// console.log(score);
 //判断值是否合法
-/* if (score > 100 || score <0 || isNaN(score)) {
-  console.log("拉出去毙了");
-}else{
+// if (score > 100 || score <0 || isNaN(score)) {
+//   console.log("拉出去毙了");
+// }else{
+  while (score > 100 || score < 0 || isNaN(score) || score == "") {
+    score = prompt("请输入小明的成绩【1-100】：")
+  }
   if (score == 100) {
     console.log("奖励一台“BMW”");
   } else if (score > 80) {
@@ -26,8 +31,8 @@ console.log(score); */
   } else {
     console.log("什么奖励也没有");
   }
-}
- */
+// }
+
 //练习2 ：高富帅练习
 /* var height = +prompt("请输入您的身高(cm):")
 var rich = +prompt("请输入您的财富($):")
@@ -64,8 +69,8 @@ if(num1<num2 && num1<num3){
     alert(num3+","+num2+","+num1)
   }
 } */
-var num = 10
+/* var num = 10
 
 if (num==10) {
   console.log("哈哈哈哈");
-}
+} */
